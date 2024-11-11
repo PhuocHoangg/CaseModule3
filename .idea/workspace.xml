@@ -5,36 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74426a26-67f1-4341-bcd6-2499f325a4f8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Repository/BaseRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Repository/IphoneRepo/IIphoneRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Repository/IphoneRepo/IphoneRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Repository/PhoneRepo/InPhoneRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Repository/PhoneRepo/PhoneRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Service/Android/AndroidService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Service/Android/IAndroidService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Service/Iphone/InIphoneService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Service/Iphone/IphoneService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo5/Android.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo5/HelloServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo5/Iphone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/ProductServelet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/Android.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/Iphone.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo5/Brand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/ProductServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/addIP.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/listIphones.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/showDeleteIphone.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webContexts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Repository/IphoneRepo/IIphoneRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Repository/IphoneRepo/IIphoneRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Repository/IphoneRepo/IphoneRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Repository/IphoneRepo/IphoneRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Repository/PhoneRepo/InPhoneRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Repository/PhoneRepo/PhoneRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Service/Android/AndroidService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Service/Android/IAndroidService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Service/Iphone/InIphoneService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Service/Iphone/IphoneService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo5/Android.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo5/HelloServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo5/Iphone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo5/Iphone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/ProductServelet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/Android.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/Iphone.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Iphone.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,9 +41,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Jsp File" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -90,11 +82,15 @@
     "project.structure.last.edited": "Problems",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.keymap",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\module2\demo5\src\test" />
+      <recent name="C:\module2\demo5\src\main" />
+      <recent name="C:\module2\demo5\src\main\webapp" />
       <recent name="C:\module2\demo5\src\main\java" />
     </key>
   </component>
@@ -206,7 +202,10 @@
       <updated>1730697506616</updated>
       <workItem from="1730697507651" duration="629000" />
       <workItem from="1730708923482" duration="6320000" />
-      <workItem from="1730719937034" duration="7535000" />
+      <workItem from="1730719937034" duration="8423000" />
+      <workItem from="1730864621219" duration="24980000" />
+      <workItem from="1731055454066" duration="16989000" />
+      <workItem from="1731301541989" duration="17300000" />
     </task>
     <servers />
   </component>
