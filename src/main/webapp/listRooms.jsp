@@ -66,33 +66,31 @@
 <form id="deleteForm" method="post" action="/?action=delete" style="display: none">
     <input type="hidden" name="id" id="deleteId">
 </form>
-<h1>Danh sách Sản phẩm</h1>
-<a href="/?action=addForm">Thêm sản phẩm </a>
+<h1>Danh sách phòng trọ</h1>
+<a href="/?action=addForm">Thêm phòng trọ</a>
 <table>
     <thead>
     <tr>
         <th>STT</th>
         <th>Tên</th>
-        <th>Màu</th>
-        <th>Giá</th>
-        <th>Chất lượng</th>
+        <th>Số điện thoại</th>
+        <th>Ngày thuê</th>
+        <th>Hình thức thanh toán</th>
+        <th>Ghi Chú</th>
         <th>Chức năng xoá</th>
-        <th>Chức năng cập nhật</th>
     </tr>
     </thead>
     <tbody>
-    <c:forEach items="${iphones}" var="p" varStatus="loop">
+    <c:forEach items="${roomList}" var="p" varStatus="loop">
         <tr>
             <td>${loop.count}</td>
-            <td>${p.model}</td>
-            <td>${p.color}</td>
-            <td>${p.price}</td>
-            <td>${p.quality}</td>
+            <td>${p.name}</td>
+            <td>${p.sodienthoai}</td>
+            <td>${p.ngaythue}</td>
+            <td>${p.phuongthuc.name}</td>
+            <td>${p.ghichu}</td>
             <td>
                 <button class="btn btn-danger" onclick="openDeleteModal(${p.getId()})">Xoá</button>
-            </td>
-            <td>
-                <a href="/?action=editForm&id=${p.id}">Cập nhật</a>
             </td>
         </tr>
     </c:forEach>
