@@ -71,8 +71,8 @@
 
         <label for="brand">Hãng:</label>
         <select id="brand" name="brand" required>
-            <c:forEach items="${brands}" var="brand">
-                <option value="${brand.id}">${brand.name}</option>
+            <c:forEach items="${roomList}" var="brand">
+                <option value="${roomList.id}">${roomList.name}</option>
             </c:forEach>
         </select>
 

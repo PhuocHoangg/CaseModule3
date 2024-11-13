@@ -5,28 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74426a26-67f1-4341-bcd6-2499f325a4f8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo5/Brand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/ProductServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/addIP.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/listIphones.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/showDeleteIphone.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/webContexts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Repository/PhongTroRepo/IPhongTro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Repository/PhuongThuc/IPhuongThuc.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Repository/IphoneRepo/IIphoneRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Repository/IphoneRepo/IIphoneRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Repository/IphoneRepo/IphoneRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Repository/IphoneRepo/IphoneRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Repository/PhoneRepo/InPhoneRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Repository/PhoneRepo/PhoneRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Service/Android/AndroidService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Service/Android/IAndroidService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Repository/BaseRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Repository/BaseRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Repository/BrandRepo/BrandRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Repository/BrandRepo/IBrandRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Repository/IphoneRepo/IIphoneRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Repository/IphoneRepo/IphoneRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Service/Brand/BrandService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Service/Brand/IBrandService.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Service/Iphone/InIphoneService.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Service/Iphone/IphoneService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo5/Android.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo5/HelloServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo5/Iphone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo5/Iphone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/ProductServelet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/Android.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/Iphone.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Iphone.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo5/Brand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo5/Iphone.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/ProductServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/ProductServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/addIP.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/addIP.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/listIphones.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/listRooms.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/updateIP.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/updateIP.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +70,7 @@
     "Tomcat Server.Tomcat 9.0.211.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/module2/111",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -205,7 +202,9 @@
       <workItem from="1730719937034" duration="8423000" />
       <workItem from="1730864621219" duration="24980000" />
       <workItem from="1731055454066" duration="16989000" />
-      <workItem from="1731301541989" duration="17300000" />
+      <workItem from="1731301541989" duration="21889000" />
+      <workItem from="1731496823173" duration="161000" />
+      <workItem from="1731496994340" duration="7561000" />
     </task>
     <servers />
   </component>

@@ -10,7 +10,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Thêm sản phẩm mới</title>
+    <title>Thêm Phòng Trọ Mới</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -39,7 +39,7 @@
             margin-bottom: 8px;
             color: #555;
         }
-        input[type="text"], input[type="number"], select {
+        input[type="text"], input[type="tel"], select, input[type="date"] {
             width: 100%;
             padding: 10px;
             margin-bottom: 10px;
@@ -63,28 +63,28 @@
     </style>
 </head>
 <body>
-<h1>Thêm sản phẩm mới</h1>
+<h1>Thêm Phòng Trọ Mới</h1>
 <form method="post" action="/?action=add">
-    <label for="brand">Hãng:</label>
-    <select id="brand" name="brand" required>
-        <c:forEach items="${brands}" var="brand">
-            <option value="${brand.id}" >${brand.name}</option>
+    <label for="name">Tên Người Thuê Trọ:</label>
+    <input type="text" id="name" name="name" pattern="^[A-Z][a-zA-Z\s]*$" title="Chữ đầu in hoa, không chứa ký tự đặc biệt" required>
+
+    <label for="phone">Số Điện Thoại:</label>
+    <input type="tel" id="phone" name="phone" pattern="^\d{10}$" title="Số điện thoại phải đủ 10 chữ số" required>
+
+    <label for="startDate">Ngày Bắt Đầu Thuê Trọ:</label>
+    <input type="date" id="startDate" name="startDate" required>
+
+    <label for="paymentMethod">Hình Thức Thanh Toán:</label>
+    <select id="paymentMethod" name="paymentMethod" required>
+        <c:forEach items="${methodList}" var="method">
+            <option value="${method.id}">${method.name}</option>
         </c:forEach>
     </select>
 
-    <label for="model">Tên:</label>
-    <input type="text" id="model" name="model" pattern="^^[A-Z][a-zA-Z0-9\s]*$" title="Không bắt đầu bằng kí tự số,không chứa kí tự đặc biệt,chữ đầu in hoa" required>
+    <label for="note">Ghi Chú:</label>
+    <input type="text" id="note" name="note" pattern="^[A-Z][a-zA-Z0-9\s]*$" title="Chữ đầu in hoa, không chứa ký tự đặc biệt" required>
 
-    <label for="color">Màu:</label>
-    <input type="text" id="color" name="color" pattern="^^[A-Z][a-zA-Z0-9\s]*$" title="Không bắt đầu bằng kí tự số,không chứa kí tự đặc biệt,chữ đầu in hoa" required>
-
-    <label for="price">Giá:</label>
-    <input type="text" step="0.01" id="price" name="price" pattern="^\d+(\.\d{1,2})?$" title="Bắt đầu bằng số và không kết thúc bằng dấu chấm" required>
-
-    <label for="quality">Chất lượng:</label>
-    <input type="text" id="quality" name="quality" pattern="^([1-9][0-9]?|100)$" title="Chất lượng từ 1-100 và không kết thúc bằng dấu chấm" required>
-
-    <input type="submit" value="Thêm sản phẩm">
+    <input type="submit" value="Thêm Phòng Trọ">
 </form>
 </body>
 </html>
